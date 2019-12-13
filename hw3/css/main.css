@@ -40,3 +40,30 @@ display: block;
 	border-left: 1px solid #666666;
 	border-right: 1px solid #666666;
 } 
+/* END of HEADER */
+
+/* MAIN */
+div .left-menu li {
+	list-style: none;
+	text-decoration: none;
+	border: 1px solid grey;
+}
+div .left-menu li a {
+	text-decoration: none;
+	color: #999999;
+	padding: 5px;
+	margin: 10px;
+	display: block;
+}
+.left-menu {
+		font-size: 20px;
+		margin-left: 70px;
+		margin-top: 50px;
+		width: 240px;
+}
+div .left-menu li a:hover {
+	list-style: none;
+	text-decoration: none;
+	color: #cccccc;
+	margin-left: 15px;
+}
